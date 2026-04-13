@@ -40,7 +40,7 @@ jobs:
       # -------------------------------
       # SNYK (BLOCKING)
       # -------------------------------
-      - name: Snyk Scan
+      - name: Snyk Scan 
         uses: snyk/actions/node@master
         with:
           args: --file=src/package.json
